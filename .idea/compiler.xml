@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="knative-lnl" />
+        <module name="knative-serving-lnl" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="knative-lnl" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
